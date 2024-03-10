@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, body{
+    font-family: "Nunito", sans-serif;
+}
+
+.nvlt .active{
+    @apply text-primary font-bold
+}
+
+.weba::-webkit-scrollbar{
+    display: none;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(75, 85, 99, 0.5);
+}
+
+
+
