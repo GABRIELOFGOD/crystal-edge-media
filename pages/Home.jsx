@@ -4,7 +4,7 @@ import Client from '../components/Client';
 import Newsletter from '../components/Newsletter';
 import ShortTeam from '../components/ShortTeam';
 import Mission from '../components/Mission';
-const hero = '/images/home-hero.jpg'
+const hero = '/images/home-hero-min.jpg'
 
 const Home = () => {
   return (

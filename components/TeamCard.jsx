@@ -1,5 +1,5 @@
 import React from 'react';
-const noImg = '/images/no-profile.jpg'
+const noImg = '/images/no-profile-min.jpg'
 
 const TeamCard = ({image, name, position}) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import Newsletter from '../components/Newsletter';
 import ShortService from '../components/ShortService';
-const aboutImage = '/images/about-image.jpg'
+const aboutImage = '/images/about-image-min.jpg'
 
 const About = () => {
   return (

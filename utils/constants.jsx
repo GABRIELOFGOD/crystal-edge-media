@@ -10,7 +10,7 @@ import { MdEditNote } from "react-icons/md";
 import { MdOutlineModelTraining } from "react-icons/md";
 
 // USER IMAGES
-const gab = '/images/gab.jpg'
+const gab = '/images/gab-min.jpg'
 
 
 export const navlist = [
