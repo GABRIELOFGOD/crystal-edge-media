@@ -19,7 +19,7 @@ const Header = () => {
         }
       </div>
       <button className='rounded-md hidden md:flex h-fit my-auto px-6 py-3 bg-primary text-white'>Contact us</button>
-      <div onClick={() => setNav(!navShow)} className='flex md:hidden my-auto text-black text-3xl'>
+      <div onClick={() => setNav(!navShow)} className='flex md:hidden my-auto text-black text-2xl'>
         {navShow ? <IoCloseSharp /> : <RiMenu3Fill />}
       </div>
     </div>

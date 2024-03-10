@@ -12,8 +12,8 @@ const Home = () => {
       <div className=' hero items-center justify-center h-fit relative '>
         <img className='h-full' src={hero} alt="hero-img" />
         <div className='absolute top-0 left-0 w-full h-full items-center justify-center flex flex-col'>
-          <p className="md:text-6xl md:w-[1000px] w-full font-bold text-white text-center">Elevating Brands with Exceptional <span className="text-primary">Media Solutions</span></p>
-          <p className="text-gray-200 w-full md:w-[800px] mt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis temporibus eius quia earum inventore accusantium? Accusantium voluptas maiores hic nobis laudantium iste illum, vitae aperiam.</p>
+          <p className="md:text-6xl text-3xl md:w-[1000px] w-full font-bold text-white text-center">Elevating Brands with Exceptional <span className="text-primary">Media Solutions</span></p>
+          <p className="text-gray-200 w-full hidden md:flex md:w-[800px] mt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis temporibus eius quia earum inventore accusantium? Accusantium voluptas maiores hic nobis laudantium iste illum, vitae aperiam.</p>
         </div>
       </div>
       <div className='py-5 md:py-10 text-xl px-6 md:px-24'>
