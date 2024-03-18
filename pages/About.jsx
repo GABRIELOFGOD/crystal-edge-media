@@ -13,7 +13,7 @@ const About = () => {
             <p className='text-lg'><span className="text-light font-semibold">CrystalEdge Media Limited</span> provides public relations and media relations solutions for brands, organizations, and individuals. Our mission is to elevate brands and assist organizations and individuals in garnering positive media exposure and bolstering their reputation. Through a blend of proficiency, innovation, and strategic approach, we ensure tangible outcomes for our valued clients.</p>
             <button className='bg-primary text-white py-3 px-6 rounded-md mt-10'>Get in Tourch</button>
           </div>
-          <img src={aboutImage} className='w-fit h-[80%] my-auto' alt="about-image" />
+          <img src={aboutImage} className='w-fit hidden md:flex h-[80%] my-auto' alt="about-image" />
         </div>
       </div>
       <ShortService />
