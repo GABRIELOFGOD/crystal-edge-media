@@ -5,7 +5,7 @@ import { partners } from '../utils/constants'
 const Client = () => {
   return (
     <div className='px-3 py-10 md:px-6'>
-        <div className='w-full scroll-smooth weba flex overflow-auto'>
+        <div className='w-full  !scroll-smooth scroll-ps flex overflow-auto'>
             <div className="w-fit flex">
                 {partners?.map((item, i) => (
                     <ClientCard

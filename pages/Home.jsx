@@ -20,7 +20,7 @@ const Home = () => {
         <p> <span className="text-primary font-semibold">Crystal Edge Media </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo nulla possimus placeat sequi, veritatis qui beatae eveniet mollitia repellat accusamus earum harum repudiandae. Repudiandae est iure, nihil optio nam ex sint quisquam sapiente ipsa nobis architecto voluptatem aliquam in autem maiores quaerat.</p>
         <div className="flex flex-col my-5 md:my-10 px-6 md:px-24 md:flex-row gap-5 justify-between">
           <Mission />
-          <Mission />
+          {/* <Mission /> */}
         </div>
       </div>
       <ShortService />
