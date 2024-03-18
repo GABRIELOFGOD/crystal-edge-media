@@ -27,7 +27,7 @@ export const navlist = [
         path: 'team'
     },
     {
-        name: 'about',
+        name: 'About us',
         path: 'about'
     }
 ]
@@ -36,26 +36,13 @@ export const services = [
     {
         icon: <TbBrandAdobe />,
         name: 'Brand Management',
-        path: ''
-    },
-    {
-        icon: <GiNewspaper />,
-        name: 'News Publication ',
-        path: ''
-    },
-    {
-        icon: <FcAdvertising />,
-        name: 'Advert Placement ',
-        path: ''
-    },
-    {
-        icon: <GiVideoConference />,
-        name: 'Press Conference',
+        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning, proactive communication, and dedication to excellence, we help brands navigate challenges and earn the loyalty and trust of their audience.',
         path: ''
     },
     {
         icon: <DiHtml5Multimedia />,
         name: 'Media Relations',
+        def:  '',
         path: ''
     },
     {
@@ -87,84 +74,91 @@ export const services = [
 
 export const partners = [
     {
-        image: '',
-        name: 'Webfala Digital Skills for all Initiative'
+        image: '/public/images/Webfala.png',
+        name: ''
     },
     {
-        image: '',
-        name: 'National Inland Waterways Authority (NIWA)'
+        image: '/images/NIWA.jpg',
+        name: ''
     },
     {
-        image: '',
-        name: 'Brainbuilders Youth Development Initiative (BBDYI)'
+        image: '/images/BBYDI.png',
+        name: ''
     },
     {
-        image: '',
-        name: 'Rising Child Foundation'
+        image: '/images/RCF.jpg',
+        name: ''
     },
     {
-        image: '',
-        name: 'Pristine SACC Education and Technology Initiative'
+        image: '/images/pristine_sacc_logo.jpg',
+        name: ''
     },
     {
-        image: '',
-        name: 'Foundation for Public Interest Law and Development'
+        image: '/images/public interest development logo.png',
+        name: ''
     },
     {
-        image: '',
-        name: 'Kwara State Government'
+        image: '/images/Kwara govt.png',
+        name: ''
     },
     {
-        image: '',
-        name: 'Apeks Microfinance Bank'
+        image: '/images/Apeks.jpg',
+        name: ''
     },
     {
-        image: '',
-        name: 'dHub Innovation Centre'
+        image: '/images/d (1).jpg',
+        name: ''
     },
     {
-        image: '',
-        name: 'CareerGrill'
+        image: '/images/careergrill.png',
+        name: ''
     },
     
 ]
 
 export const team = [
-    {
-        name: 'Gabriel Ayodele',
-        image: gab,
-        position: 'Software Development'
-    },
-    {
-        name: 'Gabriel Ayodele',
-        image: '',
-        position: 'Software Development'
-    },
-    {
-        name: 'Gabriel Ayodele',
-        image: '',
-        position: 'Software Development'
-    },
-    {
-        name: 'Gabriel Ayodele',
-        image: '',
-        position: 'Software Development'
-    },
-    {
-        name: 'Gabriel Ayodele',
-        image: '',
-        position: 'Software Development'
-    },
-    {
-        name: 'Gabriel Ayodele',
-        image: '',
-        position: 'Software Development'
-    },
-    {
-        name: 'Gabriel Ayodele',
-        image: '',
-        position: 'Software Development'
-    }
-]
+  {
+    name: "Alex Man",
+    image: gab,
+    country: "South Africa",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+  {
+    name: "Alex Man",
+    image: "",
+    country: "South Africa",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+  {
+    name: "Gabriel Ayodele",
+    image: "",
+    country: "South Africa",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+  {
+    name: "Gabriel Ayodele",
+    image: "",
+    country: "South Africa",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+  {
+    name: "Gabriel Ayodele",
+    image: "",
+    country: "South Africa",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+  {
+    name: "Gabriel Ayodele",
+    image: "",
+    country: "",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+  {
+    name: "Gabriel Ayodele",
+    image: "",
+    country: "",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
+  },
+];
 
-export const mission = ['', '', '', '', '']
+export const mission = ['']

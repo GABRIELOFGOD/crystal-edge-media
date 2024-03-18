@@ -10,7 +10,7 @@ const ShortService = () => {
         <div className='flex justify-between gap-3 flex-wrap flex-col md:flex-row mt-5'>
             {services.slice(0, 3).map((service, i) => (
                 <Link className='md:max-w-[30%]' key={i}>
-                    <ServiceCard icon={service.icon} name={service.name} />
+                    <ServiceCard icon={service.icon} name={service.name} def={service.def}/>
                 </Link>
             ))}
         </div>
