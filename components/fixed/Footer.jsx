@@ -9,7 +9,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='bg-black py-10 md:py-20 px-6 md:px-24 mt-3'>
+    <div className='bg-black py-10 md:py-20 px-6 md:px-24'>
       <div className=' flex md:grid grid-cols-4 gap-10 flex-col md:flex-row justify-between'>
         <div>
           <Link to='/'><img className='h-20 my-auto' src={logo} alt="" /></Link>

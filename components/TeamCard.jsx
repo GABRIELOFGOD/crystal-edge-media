@@ -3,7 +3,7 @@ const noImg = '/images/no-profile-min.jpg'
 
 const TeamCard = ({image, name, desc, country}) => {
   return (
-    <div className="flex w-[428px] h-[150px] p-3 rounded-md bg-gray-200 border border-light flex-col gap-3">
+    <div className="flex md:w-[30%] w-full p-3 rounded-md bg-gray-200 border border-light flex-col gap-3">
       <div className="flex gap-4">
         <img
           className="rounded-full h-[40px] w-[40px]"
@@ -16,7 +16,7 @@ const TeamCard = ({image, name, desc, country}) => {
         </div>
       </div>
       <div className="flex text-start gap-1 flex-col">
-        <p className="text-light text-xs">{desc}</p>
+        <p className="text-light text-sm">{desc}</p>
       </div>
     </div>
   );

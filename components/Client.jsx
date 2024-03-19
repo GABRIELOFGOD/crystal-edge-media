@@ -4,8 +4,9 @@ import { partners } from '../utils/constants'
 
 const Client = () => {
   return (
-    <div className='px-3 py-10 md:px-6'>
-        <div className='w-full  !scroll-smooth scroll-ps flex overflow-auto'>
+    <marquee behavior="" direction="">
+        <div className='px-3 py-10 md:px-6'>
+        <div className='w-full scroll-ps flex '>
             <div className="w-fit flex">
                 {partners?.map((item, i) => (
                     <ClientCard
@@ -17,6 +18,7 @@ const Client = () => {
             </div>
         </div>
     </div>
+    </marquee>
   )
 }
 

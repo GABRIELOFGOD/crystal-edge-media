@@ -6,6 +6,8 @@ import Contact from '../pages/Contact';
 import Services from '../pages/Services';
 import About from '../pages/About';
 import Team from '../pages/Team';
+import { CreateUserContext } from '../utils/ReusableFunctions';
+import NotFound from '../pages/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,7 @@ const router = createBrowserRouter([
         element: <Contact />
       },
       {
-        path: 'services',
+        path: 'services/:id',
         element: <Services />
       },
       {
@@ -31,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />
+      },
+      {
+        path: '*',
+        element: <NotFound />
       }
     ]
   }
@@ -38,7 +44,9 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <RouterProvider router={router} />
+    <CreateUserContext>
+      <RouterProvider router={router} />
+    </CreateUserContext>
   )
 }
 
