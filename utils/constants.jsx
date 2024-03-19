@@ -36,56 +36,50 @@ export const navlist = [
 ]
 
 export const services = [
-    {
-        icon: <TbBrandAdobe />,
-        name: 'Brand Management',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
-        path: 'brand-management'
-    },
-    {
-        icon: <DiHtml5Multimedia />,
-        name: 'Media Relations',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'media-relations',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement']
-    },
-    {
-        icon: <IoShareSocial />,
-        name: 'Social Media Management',
-        path: 'media-management',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
-    },
-    {
-        icon: <FaSearchengin />,
-        name: 'Search Engine Optimisation (SEO)',
-        path: 'search-engine',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
-    },
-    {
-        icon: <FaWordpressSimple />,
-        name: 'Website Development',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'web-dev',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
-    },
-    {
-        icon: <MdEditNote />,
-        name: 'Editing/ Proofreading',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'editing',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
-    },
-    {
-        icon: <MdOutlineModelTraining />,
-        name: 'Media Training',
-        def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'training',
-        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
-    },
-]
+  {
+    icon: <TbBrandAdobe />,
+    name: "Brand Management",
+    def: "Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning",
+    path: "brand-management",
+  },
+  {
+    icon: <DiHtml5Multimedia />,
+    name: "Media Relations",
+    def: "Media Relations is the art of fostering meaningful connections between organizations and the media, which is important for effective communication and brand visibility. We assist brands and organisations cultivate fruitful partnership with the media",
+    path: "media-relations",
+    feature: {},
+  },
+  {
+    icon: <IoShareSocial />,
+    name: "Social Media Management",
+    path: "media-management",
+    def: "Without doubt, effective social media management not only enhances brand visibility but also fosters connections with targeted audience, driving lasting impact and growth. We help brands and organisations manage their online presence across various social platforms",
+  },
+  {
+    icon: <FaSearchengin />,
+    name: "Search Engine Optimisation (SEO)",
+    path: "search-engine",
+    def: "Search Engine Optimization (SEO) is the art and science of enhancing a website's visibility and ranking in search engine results. By optimizing content, keywords, and technical elements, businesses can improve their online presence and attract more organic traffic, ultimately leading to increased visibility, engagement, and conversions",
+  },
+  {
+    icon: <FaWordpressSimple />,
+    name: "Website Development",
+    def: "With careful attention to detail and a focus on innovation, we help organisations build effective website that ensures seamless navigation, accessibility, and conversion",
+    path: "web-dev",
+  },
+  {
+    icon: <MdEditNote />,
+    name: "Editing/ Proofreading",
+    def: "We provide editing and proofreading services that enhance the quality and credibility of written materials, ensuring they meet clarity, accuracy, coherence, and resonate effectively with the intended audience",
+    path: "editing",
+  },
+  {
+    icon: <MdOutlineModelTraining />,
+    name: "Media Training",
+    def: "We offer media trainings for individuals and organizations, empowering them with the skills to effectively engage with the media, convey key messages, and handle challenging situations with finesse",
+    path: "training",
+  },
+];
 
 export const partners = [
     {
