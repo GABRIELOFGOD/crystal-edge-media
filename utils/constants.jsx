@@ -40,6 +40,7 @@ export const services = [
         icon: <TbBrandAdobe />,
         name: 'Brand Management',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
         path: 'brand-management'
     },
     {
@@ -47,39 +48,42 @@ export const services = [
         name: 'Media Relations',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
         path: 'media-relations',
-        feature: {
-            
-        }
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement']
     },
     {
         icon: <IoShareSocial />,
         name: 'Social Media Management',
         path: 'media-management',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
     },
     {
         icon: <FaSearchengin />,
         name: 'Search Engine Optimisation (SEO)',
         path: 'search-engine',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
     },
     {
         icon: <FaWordpressSimple />,
         name: 'Website Development',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'web-dev'
+        path: 'web-dev',
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
     },
     {
         icon: <MdEditNote />,
         name: 'Editing/ Proofreading',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'editing'
+        path: 'editing',
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
     },
     {
         icon: <MdOutlineModelTraining />,
         name: 'Media Training',
         def: 'Brand Reputation Management is the cornerstone of success in todays competitive landscape. To stay relevant, businesses and organisations must safeguard their most valuable asset – reputation. Through strategic planning',
-        path: 'training'
+        path: 'training',
+        feature: ['Radio Presentation', 'News Casting', 'Television station advertisement'],
     },
 ]
 
