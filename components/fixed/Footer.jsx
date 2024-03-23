@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import { navlist } from '../../utils/constants';
+import { media, navlist } from '../../utils/constants';
 const logo = "/images/crystal logo 3.png";
 import { MdLocationPin } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="text-xl font-bold text-primary">Quick Links</p>
           <div className='flex flex-col capitalize gap-3 text-white'>
             {navlist?.map((item, i) => (
-              <NavLink to={item.path}>{item.name}</NavLink>
+              <NavLink key={i} to={item.path}>{item.name}</NavLink>
             ))}
           </div>
         </div>
@@ -45,15 +45,35 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
-          
+        <div className='flex flex-col gap-5'>
+          <p className="text-xl font-bold text-primary">Social Media</p>
+          <div className='flex flex-col capitalize gap-3 text-white'>
+            {media?.map((item, i) => (
+              <Link
+                key={i}
+                to={item.path}
+                target='blank'
+                className='flex gap-2'
+              >
+                <span className='my-auto text-primary'>{item.icon}</span>
+                <p>{item.title}</p>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
       <div className="mt-8">
         <hr className='h-[1px] bg-slate-700 w-full' />
         <div className="flex gap-2 mt-2 text-gray-400 items-end justify-end">
-              <span className='my-auto'>&copy;</span>
-              <p className="text-xs my-auto">Crystal Edge Media</p>
+          <div className="flex gap-5 my-auto mr-10">
+            {
+              media.map((item, i) => (
+                <Link to={item.path} className='hover:text-primary duration-200' target='blank' key={i}>{item.icon}</Link>
+              ))
+            }
+          </div>
+          <span className='my-auto'>&copy;</span>
+          <p className="text-xs my-auto">Crystal Edge Media</p>
         </div>
       </div>
     </div>
