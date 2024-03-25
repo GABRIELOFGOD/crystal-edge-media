@@ -10,6 +10,11 @@ import { MdEditNote } from "react-icons/md";
 import { MdOutlineModelTraining } from "react-icons/md";
 import { ContextUser } from "./ReusableFunctions";
 
+// ========= SOCIAL IMPORTS =============== //
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 // const { displayServices } = ContextUser();
 
 // USER IMAGES
@@ -175,5 +180,23 @@ export const team = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis excepturi, quis alias officia odit reiciendis minima eum laborum ipsum cumque illo null.",
   },
 ];
+
+export const media = [
+  {
+    icon: <FaXTwitter />,
+    path: 'https://x.com/CrystalEdgeM?t=Z-nxVttHlVujb_R2AQyqog&s=09',
+    title: 'Twitter'
+  },
+  {
+    icon: <FaFacebookSquare />,
+    path: 'https://www.facebook.com/CrystalEdgeMediaLtd?mibextid=ZbWKwL',
+    title: 'Facebook'
+  },
+  {
+    icon: <IoLogoWhatsapp />,
+    path: 'https://wa.me/2348070554185',
+    title: 'Whatsapp'
+  },
+]
 
 export const mission = ['']

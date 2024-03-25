@@ -28,7 +28,7 @@ const Services = () => {
               <p className="font-bold mb-5 text-primary text-lg">What we do:</p>
               <ul className='flex my-auto flex-col list-disc'>
                 {current.feature.map((item, i) => (
-                  <li className='' key={i}>{item}</li>
+                  <li className='capitalize' key={i}>{item}</li>
                 ))}
               </ul>
             </div>
