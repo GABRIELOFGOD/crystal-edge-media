@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import { navlist } from '../../utils/constants';
-const logo = "/images/crystal logo 3.png";
+const logo = "/images/CRYSTAL LOGO WHITE.png";
 import { MdLocationPin } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
