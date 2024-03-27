@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import { navlist } from '../../utils/constants';
+import { navlist, media } from '../../utils/constants';
 const logo = "/images/CRYSTAL LOGO WHITE.png";
 import { MdLocationPin } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='bg-black py-10 md:py-20 px-6 md:px-24'>
       <div className=' flex md:grid grid-cols-4 gap-10 flex-col md:flex-row justify-between'>
         <div>
-          <Link to='/'><img className='h-20 my-auto' src={logo} alt="" /></Link>
+          <Link to='/'><img className='h-10 my-auto' src={logo} alt="" /></Link>
           <p className="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, deleniti inventore.</p>
         </div>
         <div className='flex flex-col gap-5'>
